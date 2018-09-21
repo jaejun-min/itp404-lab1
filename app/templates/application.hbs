@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header>
+  <h1>Lab 1</h1>
+</header>
 
+<nav>
+  {{#link-to "index"}}
+    Home
+  {{/link-to}}
+  {{#link-to "about.info" "info"}}
+    About
+  {{/link-to}}
+</nav>
 {{outlet}}
+
+<footer>
+  <p>&copy; Jaejun</p>
+</footer>

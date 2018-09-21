@@ -1,0 +1,8 @@
+{{#each model.data.children as |data| }}
+<p><b>Num of Comments:</b> {{data.data.num_comments}} </p>
+<p><b>Ups:</b> {{data.data.ups}}</p>
+<p><b>Downs:</b> {{data.data.downs}}</p>
+<p><b>Title:</b> {{data.data.title}}</p>
+<p><b>Domain:</b> {{data.data.domain}}</p>
+ <hr>
+{{/each}}
